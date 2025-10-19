@@ -12,7 +12,7 @@ enum workdays{
     String workHours;
 
     workdays(String workHours){
-    this.workHours = workHours;
+        this.workHours = workHours;
     }
 
     public String getworkHours(){
@@ -30,3 +30,4 @@ public class enumComplex {
         System.out.println(workdays.FRIDAY.getworkHours()  + ", " + workdays.FRIDAY.getworkLocation());
     }
 }
+
